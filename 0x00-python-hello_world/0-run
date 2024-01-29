@@ -1,2 +1,17 @@
-i#!/bin/bash
-python $PYFILE
+#!/bin/bash
+#!/bin/bash
+
+# This is a simple Shell script to run a Python code
+
+# Check if Python is installed
+if command -v python3 &> /dev/null
+then
+    echo "Python found. Running the Python code..."
+    # Replace "your_python_script.py" with the actual name of your Python script
+    python3 your_python_script.py
+else
+    echo "Error: Python not found. Please install Python before running this script."
+fi
+chmod +x run_python_script.sh
+./run_python_script.sh
+
