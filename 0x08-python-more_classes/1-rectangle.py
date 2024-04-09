@@ -3,7 +3,6 @@
 This module defines the a Rectangle Object.
 """
 
-
 class Rectangle:
     """Retangle object with getter and setters
     """
@@ -34,4 +33,3 @@ class Rectangle:
         elif value < 0:
             raise ValueError('height must be >= 0')
         self.__height = value
-
